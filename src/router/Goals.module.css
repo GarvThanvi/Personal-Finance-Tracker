@@ -1,0 +1,88 @@
+.Goals {
+  display: flex;
+  flex-direction: column;
+  margin-left: 77px;
+}
+
+.inputText {
+  background-color: #47476b;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  height: 40px;
+  padding-left: 20px;
+  width: 1040px;
+  font-weight: 600;
+  outline: none;
+  border: none;
+}
+
+.goalelements {
+  display: flex;
+  flex-direction: column;
+  width: 1112px;
+}
+
+.goalElement {
+  display: flex;
+  align-items: center;
+  background-color: #47476b;
+  padding: 10px;
+  width: 1112px;
+  margin-bottom: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+/* Styling for the checkbox container */
+.inputCheckbox {
+  margin-right: 15px;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ffffff; /* Border color for the checkbox */
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+}
+
+/* Styling for the checkbox checked state */
+.inputCheckbox:checked {
+  background-color: #ffffff; /* Background color when checkbox is checked */
+  border-color: #ffffff; /* Border color when checkbox is checked */
+}
+
+/* Styling for the checkbox checkmark */
+.inputCheckbox:checked::before {
+  content: "\2713"; /* Checkmark symbol */
+  font-size: 16px;
+  color: #2c2c4e; /* Color of the checkmark */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.value {
+  flex-grow: 1;
+  color: #ffffff;
+  margin: 0;
+}
+
+.cancel {
+  margin-left: 20px;
+}
+
+.Form {
+  width: 1112px;
+  height: 40px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.addIcon {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}

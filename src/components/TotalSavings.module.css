@@ -1,0 +1,77 @@
+.total {
+  margin-bottom: 0px;
+  margin-left: 20px;
+}
+.income {
+  margin-top: 3px;
+  margin-left: 20px;
+}
+
+.totalincome {
+  position: relative;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  width: 540px;
+  height: 143px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border-radius: 20px;
+  margin-left: 25px;
+  background: linear-gradient(to right, #a75dab, #847685);
+}
+
+.amount {
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+.danger {
+  color: red;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+
+.showexptip {
+  position: absolute;
+  top: -40px;
+  transform: translateX(-20%);
+  background-color: red;
+  padding: 8px;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: small;
+}
+
+.progress {
+  width: 460px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  height: 20px;
+  position: relative;
+  border-radius: 20px;
+}
+
+.bar {
+  height: 100%;
+  border-radius: 20px;
+  background-color: #4caf50;
+}
+
+.investheading {
+  position: absolute;
+  right: 40px;
+  top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.investment {
+  display: flex;
+  flex-direction: column;
+}

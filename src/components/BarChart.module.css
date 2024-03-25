@@ -1,0 +1,13 @@
+.barChart {
+  height: 400px;
+  width: 60%;
+}
+
+.chartHeading {
+  margin: 0;
+  color: white;
+}
+
+.barChart .chartContainer canvas {
+  color: white; /* Set white color for all text inside the canvas */
+}

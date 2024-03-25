@@ -1,0 +1,41 @@
+.upg {
+  margin: 20px 0 0 68px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  color: white;
+  background-color: #363658;
+  width: 755px;
+  height: 240px;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  position: relative;
+}
+
+.goal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.checkbox {
+  width: 15px;
+  height: 15px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.show {
+  position: absolute;
+  font-size: small;
+  text-decoration: underline;
+  color: white;
+  bottom: 40px;
+}

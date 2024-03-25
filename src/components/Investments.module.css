@@ -1,0 +1,53 @@
+.investments {
+  margin: 20px 0 0 68px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  color: white;
+  background-color: #363658;
+  width: 755px;
+  height: 160px;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  margin: 10px 0 0px 0;
+}
+
+.progress {
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  height: 20px;
+  position: relative;
+  border-radius: 20px;
+}
+
+.bar {
+  height: 100%;
+  border-radius: 20px;
+  background-color: #4caf50;
+}
+
+.investheading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.investment {
+  display: flex;
+  flex-direction: column;
+}
+
+.show {
+  font-size: small;
+  text-decoration: underline;
+  color: white;
+  margin-top: 20px;
+}

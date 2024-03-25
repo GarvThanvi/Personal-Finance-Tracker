@@ -1,0 +1,47 @@
+.total {
+  margin-bottom: 0px;
+  margin-left: 20px;
+}
+.income {
+  margin-top: 3px;
+  margin-left: 20px;
+}
+
+.totalincome {
+  position: relative;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  width: 180px;
+  height: 143px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 20px;
+  margin-left: 25px;
+  background: linear-gradient(to right, #0d90dc, #65899d);
+}
+
+.amount {
+  margin-left: 20px;
+}
+
+.danger {
+  color: red;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+
+.showexptip {
+  position: absolute;
+  top: -40px;
+  transform: translateX(-20%);
+  background-color: red;
+  padding: 8px;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: small;
+}

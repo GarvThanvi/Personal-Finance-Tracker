@@ -1,0 +1,44 @@
+.SingleInvestment {
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border: 1px solid #a4ce95;
+    height: 190px;
+    width: 190px;
+    border-radius: 20px;
+    background-color: #a4ce95;
+    position: relative;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    margin-right: 0px;
+    margin-left: 25px;
+  }
+  .siname {
+    margin-bottom: 0;
+  }
+  .siamount {
+    margin-top: 0;
+  }
+  
+  .returnname {
+    margin-bottom: 0;
+  }
+  .returnamount {
+    margin-top: 0;
+  }
+  
+  .SIName {
+    margin-bottom: 7px;
+  }
+  
+  .delete {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+  }

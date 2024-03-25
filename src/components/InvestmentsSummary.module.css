@@ -1,0 +1,44 @@
+.investbox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #575782;
+  height: 180px;
+  width: 40%;
+  border-radius: 20px;
+  background-color: #575782;
+  margin-left: 75px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.yourincheading {
+  margin: 0;
+}
+
+.yourincamount {
+  margin-top: 10px;
+}
+
+.tiheading {
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.tiamount {
+  font-weight: 500;
+  margin-top: 5px;
+}
+
+.returnheading {
+  margin-bottom: 0px;
+  font-weight: 500;
+}
+
+.returnamount {
+  font-weight: 700;
+  margin-top: 5px;
+}

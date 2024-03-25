@@ -1,0 +1,52 @@
+.monthlypop {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 700;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 300px;
+  height: 150px;
+  background: #ba5d5d;
+  border-radius: 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.form1 {
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  background-color: #ba5d5d;
+  border-bottom: 1px solid black;
+  outline: none;
+  margin-top: 0;
+}
+
+.heading {
+  margin-bottom: 0;
+}
+
+.cancel {
+  right: 10px;
+  top: 10px;
+  position: absolute;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+

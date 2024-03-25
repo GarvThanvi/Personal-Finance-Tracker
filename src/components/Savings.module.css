@@ -1,0 +1,20 @@
+.savings {
+  margin-left: 20px;
+  background-color: #363658;
+  width: 310px;
+  height: 293px;
+  margin-bottom: 10px;
+  position: relative;
+  padding: 20px;
+  z-index: 0;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  border-radius: 20px;
+}
+
+.doughnut {
+  color: white;
+}

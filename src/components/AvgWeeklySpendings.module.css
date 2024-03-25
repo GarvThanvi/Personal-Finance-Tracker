@@ -1,0 +1,28 @@
+.total {
+  margin-bottom: 0px;
+  margin-left: 20px;
+}
+.income {
+  margin-top: 3px;
+  margin-left: 20px;
+}
+
+.totalincome {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  width: 180px;
+  height: 143px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 20px;
+  margin-left: 25px;
+  background: linear-gradient(to right, #a75dab, #847685);
+}
+
+.amount {
+  margin-left: 20px;
+}

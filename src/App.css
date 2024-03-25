@@ -1,0 +1,50 @@
+.halves {
+  display: flex;
+}
+
+.lefthalf {
+  display: flex;
+  flex-direction: column;
+}
+
+.rightthalf {
+  display: flex;
+  flex-direction: column;
+}
+
+.financial {
+  margin-left: 20px;
+  background-color: #6d6d8d;
+  width: 310px;
+  height: 210px;
+  position: relative;
+  padding: 20px;
+  z-index: 0;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  border-radius: 20px;
+}
+
+.fin-img {
+  position: absolute;
+  right: 10px;
+  bottom: 0px;
+  height: 180px;
+  width: 180px;
+  z-index: -1;
+}
+
+.quote {
+  z-index: 1;
+}
+
+.positive {
+  color: lightgreen;
+}
+
+.negative {
+  color: red;
+}

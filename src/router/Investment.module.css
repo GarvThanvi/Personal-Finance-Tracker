@@ -1,0 +1,22 @@
+.AllInvestments {
+  display: flex;
+  width: 1250px;
+  flex-wrap: wrap;
+  margin-left: 45px;
+}
+
+.AddInv {
+  margin-left: 67px;
+  margin-top: 20px;
+}
+.main {
+  position: relative;
+}
+
+.investAndChart {
+  margin-left: 80px;
+  margin-right: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
